@@ -1,0 +1,61 @@
+.sinup {
+    background-color: #242323;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: none;
+    box-shadow: -100px 100x 30px #BAFF00;
+}
+
+.sinup input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    outline: none;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #BAFF00;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+}
+
+#username {
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+#email,
+#password {
+    margin: 5px auto;
+}
+
+.sub {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+
+.sub:hover {
+    background-color: #BAFF00;
+    color: black;
+}
+
+#exit:hover {
+    background-color: red;
+}
+
+@media (max-width:500px) {
+    .sinup {
+        top: 20%;
+        left: 0%;
+    }
+}
